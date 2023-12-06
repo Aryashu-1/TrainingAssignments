@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "Name": "sdas",
+      "Number": "3232132131",
+      "Email": "dsa@weq.com",
+      "Pass": "$2a$04$wUNmZldQhOseCzhBY99AVumNQm/Q9/a6UKTjFG9TJL2gqwcdPwASO",
+      "id": 1
+    },
+    {
+      "Name": "Ashray",
+      "Number": "9866393725",
+      "Email": "ashuabc15@gmail.com",
+      "Pass": "$2a$04$Fj9BJ.YS6rPXbOZVWouRsOB6ruqEDicW6hkRg96fVzBdv8lZkKw92",
+      "id": 2
+    }
+  ]
+}

@@ -14,7 +14,7 @@ const Counter = () => {
   return (
     <div className='flex m-4'>
       <div className='w-full m-10'>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>In giga systems, the number of components in a system may reach gigascale orders when systems are designed using nanoscale components thereby increasing number of challenges like complexity in scaling up to gigascale. Scaling of electrical properties likes power dissipation, supply voltage, speed, and leakage currents by nanotechnology has directed electronic power designs in new architecture. Development of new components for electronic system design with a fusion of nanotechnology is revolutionary. To block UV radiation many sun screens use nano-sized particles of titanium dioxide and zinc oxide effectively</p>
       </div>
       <Cparent/>
 

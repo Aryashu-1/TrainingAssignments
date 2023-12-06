@@ -1,19 +1,21 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import './Navbar.css'
 
 const Navbar = () => {
-  let navbar = ["Home", "About", "Contact", "Sign In"];
+  let navbar = ["Home", "About", "Blog", "Login"];
   return (
     <div>
-      <nav className="bg-blue-700 flex align-center justify-between p-3">
-        <div className="mx-70 align-center flex">
-          <img src='a.jpg' alt='a.jpg'></img>
-          <h1>Company</h1>
+      <nav className="bg-blue-700 flex align-center justify-between p-3 text-center">
+        <div className="mx-70 align-center flex object-contain">
+         <div className="flex"> <img className="w-10 flex rounded-full object-fill" src='https://media.springernature.com/w580h326/nature-cms/uploads/collections/NEEA_Collection_page_image-5c8544db326622d69da830c7f42dc68e.jpg' alt=''></img>
+          <h1 className="text-center font-bold text-lg px-2 py-2">SHMR</h1></div>
         </div>
-        <ul>
+        <ul >
           {navbar.map((buttons, index) => (
-            <button className="bg-white text-blue-700 mx-4 w-20 rounded-full p-2 text-center hover: curosr-pointer border-cyan-500    ">
-              buttons
-            </button>
+          <NavLink className="bg-white text-blue-700 mx-4  rounded-full p-2 text-center hover: curosr-pointer border-cyan-500 link"  to={buttons}> {buttons}
+          </NavLink>  
+             
           ))}
         </ul>
       </nav>
